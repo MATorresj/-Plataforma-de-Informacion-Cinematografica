@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(14, 14, 14);
+}
+header {
+    background-color: rgb(14, 14, 14);
+    color: white;
+    padding: 10px 0;
+}
+header .home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+}
+header .titulo h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+header .elementos-barra {
+    display: flex;
+    gap: 30px;
+}
+header .elementos-barra a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+header .elementos-barra a i {
+    margin-right: 10px;
+}
+header .buscar {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+header .buscar input {
+    padding: 5px;
+    font-size: 16px;
+    background-color: #444;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+header .boton-buscar {
+    padding: 5px 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+header .boton-buscar i {
+    font-size: 16px;
+}
+.crear-pelicula {
+    background-color: #191818;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.crear-pelicula h1 {
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 60%;
+}
+.crear-pelicula form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.crear-pelicula form .form-label {
+    font-size: 18px;
+}
+.crear-pelicula form .form-control {
+    background-color: #444;
+    border: none;
+    color: white;
+}
+.crear-pelicula form .form-control::placeholder {
+    color: #bbb;
+}
+.crear-pelicula form .btn {
+    background-color: #007bff;
+    border: none;
+}
+.crear-pelicula form .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+.crear-pelicula form .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+footer {
+background-color: #333;
+color: white;
+padding: 20px 0;
+}
+footer h5 {
+font-size: 1.25em;
+}
+footer p, footer ul, footer li {
+font-size: 0.875em;
+}
+footer ul {
+padding-left: 0;
+list-style: none;
+}
+footer a {
+color: white;
+text-decoration: none;
+}
+footer a:hover {
+text-decoration: underline;
+}

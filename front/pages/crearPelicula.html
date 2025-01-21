@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/crearPelicula.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Crea tu película</title>
+</head>
+<body>
+    <header>
+    <div class="container-fluid">
+        <div class="home d-flex justify-content-between align-items-center">
+        <div class="titulo">
+            <h1>MOVIESONICO 🔊🎬</h1>
+        </div>
+        <div class="barra-header">
+            <nav class="elementos-barra nav">
+            <a href="../index.html" class="nav-link text-white"><i class="bi bi-house"></i> Hogar</a>
+            <a href="./peliculas.html" class="nav-link text-white"><i class="bi bi-film"></i> Mejores películas</a>
+            <a href="./programas.html" class="nav-link text-white"><i class="bi bi-tv"></i> Programas de televisión</a>
+            <a href="./noticias.html" class="nav-link text-white"><i class="bi bi-newspaper"></i> Noticias</a>
+            <a href="./crearPelicula.html" class="nav-link text-white"><i class="bi bi-plus-square"></i> Agrega tu película</a>
+            </nav>
+        </div>
+        <div class="buscar d-flex">
+            <input type="text" class="form-control me-2" placeholder="Buscar..." id="buscar-input">
+            <button class="boton-buscar btn btn-outline-light" type="submit"><i class="bi bi-search"></i></button>
+        </div>
+        </div>
+    </div>
+    </header>
+    <main>
+    <section class="crear-pelicula">
+        <div class="container">
+        <h1 class="text-center">Agrega tu película favorita</h1>
+        <form class="container mt-4">
+            <div class="mb-3">
+            <label for="titleInput" class="form-label">Nombre de la película</label>
+            <input type="text" class="form-control" id="titleInput" name="titleInput" placeholder="Nombre de la película" required>
+            </div>
+            <div class="mb-3">
+            <label for="yearInput" class="form-label">Año de la película</label>
+            <input type="number" class="form-control" id="yearInput" name="yearInput" placeholder="Año de la película" required>
+            </div>
+            <div class="mb-3">
+            <label for="directorInput" class="form-label">Director/es de la película</label>
+            <input type="text" class="form-control" id="directorInput" name="directorInput" placeholder="Director/es de la película" required>
+            </div>
+            <div class="mb-3">
+            <label for="durationInput" class="form-label">Duración de la película</label>
+            <input type="text" class="form-control" id="durationInput" name="durationInput" placeholder="Duración de la película" required>
+            </div>
+            <div class="mb-3">
+            <label for="genreInput" class="form-label">Género/s de la película</label>
+            <input type="text" class="form-control" id="genreInput" name="genreInput" placeholder="Género/s de la película" required>
+            </div>
+            <div class="mb-3">
+            <label for="rateInput" class="form-label">Calificación de la película</label>
+            <input type="number" class="form-control" id="rateInput" name="rateInput" placeholder="Calificación de la película" required>
+            </div>
+            <div class="mb-3">
+            <label for="posterLink" class="form-label">Link del póster</label>
+            <input type="text" class="form-control" id="posterLink" name="posterLink" placeholder="Link del póster" required>
+            </div>
+            <button type="submit" class="btn btn-primary me-2" id="addButton">Agregar película</button>
+            <button type="reset" class="btn btn-secondary" id="clearButton">Limpiar formulario</button>
+        </form>
+        </div>
+    </section>
+    </main>
+    <footer class="bg-dark text-white pt-4">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-6">
+            <h5>MOVIESONICO 🔊🎬</h5>
+            <p>Tu cine online favorito. Disfruta de las mejores obras cinematográficas.</p>
+        </div>
+        <div class="col-md-3">
+            <h5>Links</h5>
+            <ul class="list-unstyled">
+            <li><a href="../index.html" class="text-white">Home</a></li>
+            <li><a href="./peliculas.html" class="text-white">Mejores Películas</a></li>
+            <li><a href="./programas.html" class="text-white">Programas de TV</a></li>
+            <li><a href="./noticias.html" class="text-white">Noticias</a></li>
+            <li><a href="./crearPelicula.html" class="text-white">Agrega tu pelicula</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h5>Contacto</h5>
+            <ul class="list-unstyled">
+            <li><a href="mailto:contacto@correo.com" class="text-white">contacto@correo.com</a></li>
+            <li><a href="tel:+1234567890" class="text-white">+1234567890</a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="text-center py-3">
+        <p>&copy; 2024 MOVIESONICO. Todos los derechos reservados.</p>
+        </div>
+    </div>
+    </footer>
+    <script src="../scripts/crearPelicula.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+background-color: rgb(14, 14, 14);
+}
+header {
+  background-color: rgb(14, 14, 14);;
+  color: white;
+  padding: 10px 0px;
+}
+header .home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 20px;
+}
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+header .elementos-barra {
+  display: flex;
+  gap: 30px;
+}
+header .elementos-barra a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+header .elementos-barra a i {
+  margin-right: 10px;
+}
+header .buscar {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+header .buscar input {
+  padding: 5px;
+  font-size: 16px;
+  background-color: #444;
+  border: none;
+  color: white;
+  border-radius: 3px;
+}
+header .boton-buscar {
+  padding: 5px 10px;
+  background-color: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+header .boton-buscar i {
+  font-size: 16px;
+}
+.bienvenida{
+  background-color: #191818;
+  padding: 20px;
+}
+main .bienvenida h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  opacity: 60%;
+  margin: 0px, 0px, 0px, 20px; 
+}
+main .bienvenida p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  opacity: 40%;
+  margin-bottom: 0px;
+}
+.seccion-tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.contenedor-tarjetas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.tarjeta {
+  background-color: #1a1a1a;
+  width: 250px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.455);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  position: relative;
+}
+.tarjetaImgTop {
+  width: 100%;
+  height: auto;
+}
+.tarjeta-body {
+  padding: 15px;
+}
+.tarjeta-titulo {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: whitesmoke;
+  margin-bottom: 10px;
+}
+.tarjeta-texto {
+  font-size: 1em;
+  color: white;
+  margin-bottom: 5px;
+  line-height: 1.4;
+}
+.tarjeta:hover {
+  transform: scale(1.05);
+  background-color:rgb(245, 245, 235);
+}
+.tarjeta:hover .tarjeta-titulo {
+  color: black;
+}
+.tarjeta:hover .tarjeta-texto {
+  color: black;
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+footer h5 {
+  font-size: 1.25em;
+}
+footer p, footer ul, footer li {
+  font-size: 0.875em;
+}
+footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}

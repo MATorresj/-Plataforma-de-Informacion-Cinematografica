@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(14, 14, 14);
+}
+header {
+    background-color: rgb(14, 14, 14);
+    color: white;
+    padding: 10px 0;
+}
+header .home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+}
+header .titulo h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+header .elementos-barra {
+    display: flex;
+    gap: 30px;
+}
+header .elementos-barra a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+header .elementos-barra a i {
+    margin-right: 10px;
+}
+header .buscar {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+header .buscar input {
+    padding: 5px;
+    font-size: 16px;
+    background-color: #444;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+header .boton-buscar {
+    padding: 5px 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+header .boton-buscar i {
+    font-size: 16px;
+}
+.mejores-series {
+    background-color: #191818;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.mejores-series h1 {
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 60%;
+    margin-bottom: 20px;
+}
+.mejores-series p {
+    font-size: 18px;
+    opacity: 80%;
+    margin-bottom: 20px;
+}
+.serie {
+    background-color: #1a1a1a;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.455);
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    text-align: left;
+    max-width: 800px;
+    width: 100%;
+    margin: 20px auto;
+}
+.serie img {
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.serie .contenido {
+    display: flex;
+    gap: 15px;
+}
+.serie .contenido img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
+.serie h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+.serie p {
+    font-size: 1em;
+    color: white;
+    margin-bottom: 5px;
+    line-height: 1.4;
+}
+.serie .descripcion {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: whitesmoke;
+}
+.serie:hover {
+    transform: scale(1.05);
+    background-color: rgb(245, 245, 235);
+}
+.serie:hover h2, .serie:hover p {
+    color: black;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+footer h5 {
+font-size: 1.25em;
+}
+footer p, footer ul, footer li {
+font-size: 0.875em;
+}
+footer ul {
+padding-left: 0;
+list-style: none;
+}
+footer a {
+color: white;
+text-decoration: none;
+}
+footer a:hover {
+text-decoration: underline;
+}
